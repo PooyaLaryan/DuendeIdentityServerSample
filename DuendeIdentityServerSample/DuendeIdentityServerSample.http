@@ -1,0 +1,6 @@
+@DuendeIdentityServerSample_HostAddress = http://localhost:5255
+
+GET {{DuendeIdentityServerSample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
