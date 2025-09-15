@@ -14,6 +14,7 @@ var tokenResponse = await client.RequestClientCredentialsTokenAsync(new()
     ClientSecret = "secret",
     Scope = "api1"
 });
+
 if (tokenResponse.IsError)
 {
     Console.WriteLine(tokenResponse.Error);
